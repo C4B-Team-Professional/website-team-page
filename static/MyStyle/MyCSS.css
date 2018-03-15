@@ -1,0 +1,13 @@
+    /* Start CSS Global */
+    
+    body,
+    html {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
