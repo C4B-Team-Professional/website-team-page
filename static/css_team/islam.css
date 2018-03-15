@@ -1,5 +1,5 @@
 nav img {
-    width: 70px;
+    width: 80px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,6 +15,22 @@ nav ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+nav span {
+    color: #ef3340;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #269cca;
+}
+
+nav a {
+    font-size: 30px;
+    font-weight: 400;
 }
 
 
@@ -62,14 +78,13 @@ nav ul {
     cursor: pointer;
     text-decoration: none;
     font-size: 20px;
-    color: #342ae7;
+    color: #251eb1;
     font-weight: 500;
 }
 
-a:hover {
+#about a:hover {
     cursor: pointer;
     text-decoration: none;
-    font-size: 30px;
     color: #e72a2a;
     font-weight: 500;
 }
