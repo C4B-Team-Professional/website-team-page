@@ -23,6 +23,10 @@
 
     <link rel="stylesheet" href="./static/css/animate.css">
 
+    <link href="static/css_team/aos.css" rel="stylesheet">
+    
+    <link href="static/styles/main.css" rel="stylesheet">
+
 
 
 
@@ -30,17 +34,28 @@
 
 <body>
     <!-- Start NavBar "your name" -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav">
-        <img src="./images/1.png" alt="">
-
-
-        <div class="center1 navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynav aaCss">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="./images/1.png" alt="" >
+        <div class="teamCss">
+       
+                <h1 class="h1Css" href="#team"><span class="spanCss">TEAM</span> PROFESSIONAL </h1>
+            
+        
+    </div>
+        <div class="collapse navbar-collapse fixed-top " id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ssCss ">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#team"><span>TEAM</span> PROFESSIONAL </a>
+                    <a class="nav-link" href="#about">About Us <span class="sr-only">(current)</span></a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#contact">Contact Us</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
 
@@ -57,83 +72,157 @@
     <!-- End Header "Aws Bassam" -->
 
     <!-- Start Content "Islam Jameel" -->
+   
+
+
+
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 wow fadeIn">
-                    <h1>From the <span>people</span> to the <span>people</span></h1>
-                    <p>IT IS A NONPROFIT HUMANITARIAN INITIATIVE AIMED AT SERVING THE COMMUNITY THROUGH PROGRAMMING. <a href="http://codeforiraq.herokuapp.com/" id="Code">CODE FOR IRAQ</a> IS A REAL EDUCATIONAL INITIATIVE THAT SPONSORS THOSE INTERESTED IN
-                        LEARNING THE DESIGN AND PROGRAMMING OF MOBILE APPLICATIONS,WEBSITES, SOFTWARE, NETWORKS, COMMUNICATIONS AND COMPUTER OPERATING SYSTEMS USING OPEN SOURCE TECHNOLOGIES.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12 wow fadeIn">
+                        <h1>From the <span>people</span> to the <span>people</span></h1>
+                        <p>IT IS A NONPROFIT HUMANITARIAN INITIATIVE AIMED AT SERVING THE COMMUNITY THROUGH PROGRAMMING. <a href="http://codeforiraq.herokuapp.com/" id="Code">CODE FOR IRAQ</a> IS A REAL EDUCATIONAL INITIATIVE THAT SPONSORS THOSE INTERESTED IN
+                            LEARNING THE DESIGN AND PROGRAMMING OF MOBILE APPLICATIONS,WEBSITES, SOFTWARE, NETWORKS, COMMUNICATIONS AND COMPUTER OPERATING SYSTEMS USING OPEN SOURCE TECHNOLOGIES.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 wow bounceInRight">
+                        <img src="./images/2.png" alt="">
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 wow bounceInRight">
-                    <img src="./images/2.png" alt="">
+    
+        </section>
+    
+    
+    
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 center">
+                        <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> TEAM</h2>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.3s">
+                        <div class="team-wrapper">
+                            <img src="images/team/01.jpg" class="img-responsive" alt="team img 1">
+                            <div class="team-des">
+                                <h4>Islam Jameel</h4>
+                                <span>Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.6s">
+                        <div class="team-wrapper">
+                            <img src="images/team/02.jpg" class="img-responsive" alt="team img 2">
+                            <div class="team-des">
+                                <h4>Aws Aljanabi</h4>
+                                <span>Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.3s">
+                        <div class="team-wrapper">
+                            <img src="images/team/03.jpg" class="img-responsive" alt="team img 3">
+                            <div class="team-des">
+                                <h4>Mohamd Alani</h4>
+                                <span>Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.6s">
+                        <div class="team-wrapper ">
+                            <img src="images/team/04.jpg" class="img-responsive" alt="team img 4">
+                            <div class="team-des">
+                                <h4>Ahmad Nouman</h4>
+                                <span>Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-    </section>
-
-
-
-    <section id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 center">
-                    <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>AWESOME</span> TEAM</h2>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.3s">
-                    <div class="team-wrapper">
-                        <img src="images/team/01.jpg" class="img-responsive" alt="team img 1">
-                        <div class="team-des">
-                            <h4>Islam Jameel</h4>
-                            <span>Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.6s">
-                    <div class="team-wrapper">
-                        <img src="images/team/02.jpg" class="img-responsive" alt="team img 2">
-                        <div class="team-des">
-                            <h4>Aws Aljanabi</h4>
-                            <span>Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.3s">
-                    <div class="team-wrapper">
-                        <img src="images/team/03.jpg" class="img-responsive" alt="team img 3">
-                        <div class="team-des">
-                            <h4>Mohamd Alani</h4>
-                            <span>Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn paddingCard" data-wow-offset="50" data-wow-delay="1.6s">
-                    <div class="team-wrapper ">
-                        <img src="images/team/04.jpg" class="img-responsive" alt="team img 4">
-                        <div class="team-des">
-                            <h4>Ahmad Nouman</h4>
-                            <span>Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque tempus ac eget diam et laoreet phasellus ut nisi id leo molest.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     <!-- EndContent "Islam Jameel" -->
+    <div class="section" id="contact">
+            <div class="cc-contact-information" style="background-image: url('images/aaa.jpg');">
+              <div class="container">
+                <div class="cc-contact">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <div class="card mb-0" data-aos="zoom-in">
+                        <div class="h4 text-center title">Contact Me</div>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="card-body">
+                              <form action="https://formspree.io/your@email.com" method="POST">
+                                <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                                <div class="row mb-3">
+                                  <div class="col">
+                                    <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                                      <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="col">
+                                    <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                                      <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="col">
+                                    <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                      <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row mb-3">
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                    <button class="btn btn-primary" type="submit">Send</button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="card-body">
+                                <p class="mb-0"><strong>Aws Email</strong></p>
+                                <p>aws.aljanabi_aljanabi@codeforiraq.org</p>
+                                <p class="mb-0"><strong>Islam Email</strong></p>
+                              <p>aws.aljanabi_aljanabi@codeforiraq.org</p>
+                              <p class="mb-0"><strong>Ahmed Email</strong></p>
+                              <p>aws.aljanabi_aljanabi@codeforiraq.org</p>
+                              <p class="mb-0"><strong>Mohammad Email</strong></p>
+                              <p>aws.aljanabi_aljanabi@codeforiraq.org</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+              </div>
 
     <!-- Start Footer "Islam Jameel" -->
     <footer>
         <div class="container">
+                <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
             <div class="row">
                 <div class="col-md-12 center">
                     <h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s"><span>Team Professional © 2018</span> </h2>
-                </div>
+                </div </div>
             </div>
-        </div>
     </footer>
     <!-- End Footer "Islam Jameel" -->
 
@@ -147,6 +236,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js " integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js " integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ " crossorigin="anonymous "></script>
     <script src="./static/MyStyle/MyJs.js"></script>
+    <script src="static/js_team/core/jquery.3.2.1.min.js"></script>
+    <script src="static/js_team/core/popper.min.js"></script>
+    <script src="static/js_team/core/bootstrap.min.js"></script>
+    <script src="static/js_team/now-ui-kit.js?v=1.1.0"></script>
+    <script src="static/js_team/aos.js"></script>
+    <script src="static/scripts/main.js"></script>
+
 
 
 </body>

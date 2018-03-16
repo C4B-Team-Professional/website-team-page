@@ -1,5 +1,5 @@
 nav img {
-    width: 80px;
+    width: 70px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -15,22 +15,23 @@ nav ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.h1Css{
+    font-size: 40px;
+    color: #28a7e9;
+}
+
+.aaCss{
+    padding-top: 30px;
+}
+.teamCss{
     text-align: center;
 }
-
-nav span {
-    color: #ef3340;
-    font-size: 30px;
-    font-weight: 400;
+.spanCss{
+    color: #e72a2a;
 }
-
-.navbar-light .navbar-nav .active>.nav-link {
-    color: #269cca;
-}
-
-nav a {
-    font-size: 30px;
-    font-weight: 400;
+.ssCss{
+    background-color: rgba(19, 143, 226, 0.19)
 }
 
 
@@ -78,13 +79,14 @@ nav a {
     cursor: pointer;
     text-decoration: none;
     font-size: 20px;
-    color: #251eb1;
+    color: #342ae7;
     font-weight: 500;
 }
 
-#about a:hover {
+a:hover {
     cursor: pointer;
     text-decoration: none;
+    font-size: 30px;
     color: #e72a2a;
     font-weight: 500;
 }
