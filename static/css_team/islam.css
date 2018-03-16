@@ -16,21 +16,25 @@ nav ul {
     margin-left: auto;
     margin-right: auto;
 }
-.h1Css{
-    font-size: 40px;
+
+.h1Css {
+    font-size: 30px;
     color: #28a7e9;
 }
 
-.aaCss{
+.aaCss {
     padding-top: 30px;
 }
-.teamCss{
+
+.teamCss {
     text-align: center;
 }
-.spanCss{
+
+.spanCss {
     color: #e72a2a;
 }
-.ssCss{
+
+.ssCss {
     background-color: rgba(19, 143, 226, 0.19)
 }
 

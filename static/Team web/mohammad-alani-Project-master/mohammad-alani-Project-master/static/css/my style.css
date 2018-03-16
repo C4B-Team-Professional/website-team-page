@@ -1,0 +1,80 @@
+.jumbotron {
+    background-image: url("../../static/img/header-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ecf0f1;
+    margin-bottom: 0px;
+}
+
+.mylead {
+    background-color: rgba(52, 53, 94, 0.705)
+}
+
+.my-warning {
+    background-color: rgba(231, 74, 60, 0.53)
+}
+
+.myfontcolor {
+    color: #868e96;
+}
+
+#product {
+    background-color: #ecf0f1;
+}
+
+.mypadding {
+    padding-top: 40px;
+}
+
+.myimage {
+    margin-left: 30%;
+}
+
+.mylist {
+    list-style-type: none;
+}
+
+.mytext {
+    text-align: center;
+}
+
+.mymargin {
+    margin-top: 100px;
+}
+
+.mypaddingmedia {
+    padding-top: 20px;
+    padding: 35px;
+}
+
+#price {
+    background-color: #ecf0f1;
+    padding-top: 100px;
+}
+
+.mycard2 {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+#business {
+    background-image: url("buss/buss1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* color: #ecf0f1;
+    margin-bottom: 0px;*/
+}
+
+.mycenter {
+    padding-right: 300px;
+}
+
+.mycc {
+    padding-left: 500px;
+}
+
+.moh {
+    padding-right: 300px;
+}
